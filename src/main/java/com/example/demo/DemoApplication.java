@@ -17,7 +17,7 @@ public class DemoApplication {
 	public static Logger logger= LoggerFactory.getLogger(DemoApplication.class);
 
 	@PostConstruct
-	public  init(){
+	public void init(){
 		logger.info("Application Started......._:)");
 	}
 
